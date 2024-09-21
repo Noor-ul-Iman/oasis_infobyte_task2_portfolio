@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="background-overlay">
+            <div class="background-grid"></div>
+            <div class="background-radial"></div>
+        </div>
+        <div class="content-container">
+            <!-- Navbar Component -->
+            <nav class="navbar">
+                <div class="logo-container">
+                    <a href="/" aria-label="Home">
+                        <img src="./assets/logo.png" class="logo" alt="Logo" />
+                    </a>
+                </div>
+                <div class="social-icons">
+                    <a href="/" target="_blank" aria-label="LinkedIn" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin icon"></i>
+                    </a>
+                    <a href="/" target="_blank" aria-label="Github" rel="noopener noreferrer">
+                        <i class="bi bi-github icon"></i>
+                    </a>
+                    <a href="/" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+                        <i class="bi bi-instagram icon"></i>
+                    </a>
+                    <a href="/" target="_blank" aria-label="Twitter" rel="noopener noreferrer">
+                        <i class="bi bi-twitter icon"></i>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-container">
+                    <div class="hero-image">
+                        <img src="./assets/profile.jpg" alt="Profile" class="profile-img">
+                    </div>
+                    <div class="hero-content">
+                        <h2 class="hero-title">Noor ul Iman</h2>
+                        <span class="hero-subtitle">Full Stack Developer</span>
+                        <p class="hero-description">
+                        I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.
+
+                        </p>
+                        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download class="resume-btn">
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technologies Section -->
+            <section class="technologies py-5">
+                <h2 class="text-center mb-4">Technologies</h2>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <!-- HTML5 -->
+                        <div class="col-4 col-md-2 text-center">
+                            <i class="bi bi-filetype-html text-danger" style="font-size: 4rem;"></i>
+                           
+                        </div>
+                        <!-- CSS3 -->
+                        <div class="col-4 col-md-2 text-center">
+                            <i class="bi bi-filetype-css text-primary" style="font-size: 4rem;"></i>
+                          
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="col-4 col-md-2 text-center">
+                            <i class="bi bi-filetype-js text-warning" style="font-size: 4rem;"></i>
+                           
+                        </div>
+                        <!-- React -->
+                        <div class="col-4 col-md-2 text-center">
+                            <i class="bi bi-gear-wide-connected text-info" style="font-size: 4rem;"></i>
+                            
+                        </div>
+                        <!-- Node.js -->
+                        <div class="col-4 col-md-2 text-center">
+                            <i class="bi bi-node-plus text-success" style="font-size: 4rem;"></i>
+        
+                        </div>
+                        <!-- MongoDB -->
+                        <div class="col-4 col-md-2 text-center">
+                            <i class="bi bi-server text-success" style="font-size: 4rem;"></i>
+                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects py-5">
+                <h2 class="text-center mb-5">Projects</h2>
+                <div class="container">
+                    <!-- Project 1 -->
+                    <div class="row mb-5">
+                        <div class="col-lg-4 col-12 text-center">
+                            <img src="./assets/projects/project-1.webp" alt="E-Commerce Website" class="img-fluid rounded mb-4">
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <h3>E-Commerce Website</h3>
+                            <p>A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.</p>
+                            <div>
+                                <span class="badge bg-secondary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                                <span class="badge bg-secondary">React</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-secondary">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="row mb-5">
+                        <div class="col-lg-4 col-12 text-center">
+                            <img src="./assets/projects/project-2.webp" alt="Task Management App" class="img-fluid rounded mb-4">
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <h3>Task Management App</h3>
+                            <p>An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.</p>
+                            <div>
+                                <span class="badge bg-secondary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                                <span class="badge bg-secondary">Angular</span>
+                                <span class="badge bg-secondary">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="row mb-5">
+                        <div class="col-lg-4 col-12 text-center">
+                            <img src="./assets/projects/project-3.webp" alt="Portfolio Website" class="img-fluid rounded mb-4">
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <h3>Portfolio Website</h3>
+                            <p>A personal portfolio website showcasing projects, skills, and contact information.</p>
+                            <div>
+                                <span class="badge bg-secondary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                                <span class="badge bg-secondary">React</span>
+                                <span class="badge bg-secondary">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="row mb-5">
+                        <div class="col-lg-4 col-12 text-center">
+                            <img src="./assets/projects/project-4.webp" alt="Blogging Platform" class="img-fluid rounded mb-4">
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <h3>Blogging Platform</h3>
+                            <p>A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.</p>
+                            <div>
+                                <span class="badge bg-secondary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                                <span class="badge bg-secondary">Vue.js</span>
+                                <span class="badge bg-secondary">Express</span>
+                                <span class="badge bg-secondary">mySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Experience Section -->
+            <section class="experience py-5">
+                <h2 class="text-center my-4">Experience</h2>
+                <div class="container">
+                    <!-- Experience 1 -->
+                    <div class="row mb-4">
+                        <div class="col-lg-3 col-12">
+                            <p class="text-muted1">2023 - Present</p>
+                        </div>
+                        <div class="col-lg-9 col-12">
+                            <h4>Senior Full Stack Developer - <span class="text-info">Google Inc.</span></h4>
+                            <p>
+                                Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.
+                            </p>
+                            <div>
+                                <span class="badge bg-secondary">JavaScript</span>
+                                <span class="badge bg-secondary">React.js</span>
+                                <span class="badge bg-secondary">Next.js</span>
+                                <span class="badge bg-secondary">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="row mb-4">
+                        <div class="col-lg-3 col-12">
+                            <p class="text-muted1">2022 - 2023</p>
+                        </div>
+                        <div class="col-lg-9 col-12">
+                            <h4>Frontend Developer - <span class="text-info">Adobe</span></h4>
+                            <p>
+                                Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.
+                            </p>
+                            <div>
+                                <span class="badge bg-secondary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                                <span class="badge bg-secondary">Vue.js</span>
+                                <span class="badge bg-secondary">mySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="row mb-4">
+                        <div class="col-lg-3 col-12">
+                            <p class="text-muted1">2021 - 2022</p>
+                        </div>
+                        <div class="col-lg-9 col-12">
+                            <h4>Full Stack Developer - <span class="text-info">Facebook</span></h4>
+                            <p>
+                                Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.
+                            </p>
+                            <div>
+                                <span class="badge bg-secondary">Python</span>
+                                <span class="badge bg-secondary">Svelte</span>
+                                <span class="badge bg-secondary">Three.js</span>
+                                <span class="badge bg-secondary">Postgres</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 4 -->
+                    <div class="row mb-4">
+                        <div class="col-lg-3 col-12">
+                            <p class="text-muted1">2020 - 2021</p>
+                        </div>
+                        <div class="col-lg-9 col-12">
+                            <h4>Software Engineer - <span class="text-info">Paypal</span></h4>
+                            <p>
+                                Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.
+                            </p>
+                            <div>
+                                <span class="badge bg-secondary">Ruby</span>
+                                <span class="badge bg-secondary">Rails</span>
+                                <span class="badge bg-secondary">PHP</span>
+                                <span class="badge bg-secondary">SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Section -->
+              <!-- Contact Section -->
+              <section class="contact py-5">
+                <h2 class="text-center mb-5">Get in Touch</h2>
+                <div class="container text-center">
+                    <p class="mb-3">767 Fifth Avenue, New York, NY 10153</p>
+                    <p class="mb-3">+12 4555 666 00</p>
+                    <a href="mailto:me@example.com" class="contact-email">me@example.com</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
